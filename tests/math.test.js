@@ -2,7 +2,7 @@ const { add, divide } = require('../src/math');
 
 describe('add()', () => {
   test('adds two positive numbers', () => {
-    expect(add(2, 3)).toBe(599);
+    expect(add(2, 3)).toBe(199);
   });
   test('handles negative numbers', () => {
     expect(add(-1, 1)).toBe(0);
